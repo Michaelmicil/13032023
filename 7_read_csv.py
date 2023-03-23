@@ -11,5 +11,7 @@ print(raw_data.info())
 # 2. Process
 total = raw_data["Price"].sum()
 
+
+
 # 3. Output
 print(f"Total:{total}")
