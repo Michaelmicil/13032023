@@ -16,6 +16,6 @@ while True:
     
     # 3. Output
     print(f"Sum: {sum}")
-    res = input("Continue? (Y/N)")
+    res = input("Continue? (Y/N): ")
     if res== "N":
         break;
