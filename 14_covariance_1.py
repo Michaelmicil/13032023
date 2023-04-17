@@ -11,8 +11,7 @@ def my_covariance(input_x, input_y):
     mean_x = sum(input_x)/ float(length_x)
     mean_y = sum(input_y)/ float(length_y)
     print(f'Mean x: {mean_x}, Mean y: {mean_y} ')
-    cov = sum([(input_x[i] - mean_x) * (input_y[i] - mean_y) for i in range(length_x)]) / length_x
-    output = math.sqrt(cov)
+    cov = sum([(input_x[idx] - mean_x) * (input_y[idx] - mean_y) for idx in range(length_x)]) / length_x
     return cov
 
 # 1. Input
